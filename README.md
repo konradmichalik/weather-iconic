@@ -22,7 +22,7 @@ A minimal multi-color weather icon set containing 100 icons offered in multiple 
 - Accessibility features (ARIA labels)
 - Customizable props (size, color, className)
 - SVG sprites for performance optimization
-- Webfont generation (WOFF2, WOFF, TTF, EOT)
+- Webfont generation (WOFF2, WOFF, TTF)
 - PNG exports in multiple sizes (16px to 128px) with retina support
 
 > [!NOTE]
@@ -601,7 +601,7 @@ Weather Iconic supports multi-color icons for enhanced visual communication. Man
 npm run build:icons      # Process and optimize SVGs
 npm run build:components # Generate React/Vue components
 npm run build:sprite     # Create SVG sprite
-npm run build:fonts      # Generate webfonts (WOFF2, WOFF, TTF, EOT)
+npm run build:fonts      # Generate webfonts (WOFF2, WOFF, TTF)
 npm run build:png        # Export PNG images (multiple sizes + retina)
 npm run build           # Full build pipeline
 ```
@@ -619,7 +619,7 @@ open index.html
 - **Bundle Sizes**: SVG Sprite (~189KB), Webfonts (~100KB), JS Bundles (~14KB)
 - **Total Package**: ~390KB (optimized distribution without PNG assets)
 - **Formats**: SVG sprites, webfonts with TypeScript definitions, ES/CJS modules
-- **Font Formats**: WOFF2, WOFF, TTF, EOT for maximum browser support
+- **Font Formats**: WOFF2, WOFF, TTF for modern browser support
 - **Node.js**: Requires Node.js >=16.0.0
 
 ## ⭐ License

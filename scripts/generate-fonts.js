@@ -27,7 +27,7 @@ async function generateIconFonts() {
     const config = {
       inputDir: iconsDir,
       outputDir: fontsDir,
-      fontTypes: ['woff2', 'woff', 'ttf', 'eot'],
+      fontTypes: ['woff2', 'woff', 'ttf'],
       assetTypes: ['css', 'json', 'html'],
       name: 'weather-iconic',
       prefix: 'weather',
@@ -205,7 +205,7 @@ async function fixFontPaths(cssFilePath) {
     
     // Replace direct font file references with fonts/ subfolder
     cssContent = cssContent.replace(
-      /url\("\.\/weather-iconic\.(woff2|woff|ttf|eot)([^"]*?)"\)/g,
+      /url\("\.\/weather-iconic\.(woff2|woff|ttf)([^"]*?)"\)/g,
       'url("./fonts/weather-iconic.$1$2")'
     )
     

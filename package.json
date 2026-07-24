@@ -22,8 +22,7 @@
     "!dist/png/**",
     "!dist/preview.html",
     "README.md",
-    "LICENSE",
-    "CHANGELOG.md"
+    "LICENSE"
   ],
   "engines": {
     "node": ">=16.0.0"
