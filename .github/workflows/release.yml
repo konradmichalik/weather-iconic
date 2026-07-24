@@ -5,6 +5,9 @@ on:
     tags:
       - '*'
 
+permissions:
+  contents: write
+
 jobs:
   # Job: Create release
   release:
@@ -20,7 +23,7 @@ jobs:
       # Check if tag is valid
       - name: Check tag
         run: |
-          if ! [[ ${{ github.ref }} =~ ^refs/tags/[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}$ ]]; then
+          if ! [[ ${{ github.ref }} =~ ^refs/tags/[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
             exit 1
           fi
 
