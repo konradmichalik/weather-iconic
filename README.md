@@ -26,7 +26,7 @@ A minimal multi-color weather icon set containing 100 icons offered in multiple 
 - PNG exports in multiple sizes (16px to 128px) with retina support
 
 > [!NOTE]
-> Originally made for the weather app [temps](https://jackd248.github.io/temps/).
+> Originally made for the weather app [temps](https://konradmichalik.github.io/temps/).
 
 - [Features](#features)
 - [Icons](#icons)
@@ -43,7 +43,7 @@ A minimal multi-color weather icon set containing 100 icons offered in multiple 
 All 100 weather icons with exemplary multi-color visual previews:
 
 > [!TIP]
-> Search for specific icons within the landing page: https://jackd248.github.io/weather-iconic/
+> Search for specific icons within the landing page: https://konradmichalik.github.io/weather-iconic/
 
 > [!NOTE]
 > Icons are also available in single-color versions in the same packages.
