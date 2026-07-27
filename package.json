@@ -61,7 +61,7 @@
   "license": "CC-BY-SA-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackd248/weather-iconic.git"
+    "url": "https://github.com/konradmichalik/weather-iconic.git"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
