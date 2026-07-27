@@ -2,8 +2,7 @@
     font-family: "weather-iconic";
     src: url("./fonts/weather-iconic.woff2?2654d399b57e5ec4a4cbcf4143491d8d") format("woff2"),
 url("./fonts/weather-iconic.woff?2654d399b57e5ec4a4cbcf4143491d8d") format("woff"),
-url("./fonts/weather-iconic.ttf?2654d399b57e5ec4a4cbcf4143491d8d") format("truetype"),
-url("./fonts/weather-iconic.eot?2654d399b57e5ec4a4cbcf4143491d8d#iefix") format("embedded-opentype");
+url("./fonts/weather-iconic.ttf?2654d399b57e5ec4a4cbcf4143491d8d") format("truetype");
 }
 
 .weather:before {
