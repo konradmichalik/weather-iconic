@@ -1,0 +1,35 @@
+name: 💡 Feature or icon request
+description: Suggest a new icon, integration option, or other improvement.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your idea! Use this for new icon suggestions as well as
+        general feature requests.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request type
+      options:
+        - New icon(s)
+        - New / improved integration option
+        - Other improvement
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to see?
+      description: |
+        Describe the icon(s) or feature. For new icons, please describe the
+        weather concept and, if possible, link a reference.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation / use case
+      description: What problem does this solve, or where would you use it?
+    validations:
+      required: false
